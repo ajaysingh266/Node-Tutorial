@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>EJS</title>
+</head>
+<body>
+    profile page ejs <%= user.name%>
+   
+    <h3> age <%= user.age%></h3>
+    <ul>
+        <% user.skills.forEach((item)=>{ %>
+            <li> <%= item %></li>
+       <% }) %>
+    </ul>
+</body>
+</html>
