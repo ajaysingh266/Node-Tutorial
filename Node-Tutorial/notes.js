@@ -62,6 +62,9 @@
 
 // if node_modules deleted from project then start npm i to reinstall the node_modules
 // never push node modules on git. use gitinore
+// file name .gitignore
+// folder name-  /node_module
+
 
 
 // nodemon is used for continuous live output
